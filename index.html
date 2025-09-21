@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Para Ti — Flores Amarillas 🌻</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="heading">Para Ti <span>🌻</span></header>
+
+        <section class="card">
+            <!-- Cielo / estrellas sutiles -->
+            <div class="sky"></div>
+            <!-- Partículas (luciérnagas / brillos) -->
+            <canvas id="fx" aria-hidden="true"></canvas>
+            <!-- Escena con flores -->
+            <svg id="scene" viewBox="0 0 900 580" preserveAspectRatio="xMidYMid meet"
+                aria-label="Flores amarillas moviéndose con el viento"></svg>
+        </section>
+
+        <!-- Mensaje bonito -->
+        <section class="note-card" aria-label="Mensaje para ella">
+            <div class="note-head">
+                <span class="heart">♥</span>
+                <span class="title">Para una mujer especial, fuerte, valiente y hermosa</span>
+            </div>
+            <div class="note-body">
+                <p id="typewriter"></p>
+                <div class="signature">Con cariño, <span id="firma"></span> • <span id="fecha"></span></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
